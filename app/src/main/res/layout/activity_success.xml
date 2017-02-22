@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CheckBox
+        android:text="item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="51dp"
+        android:id="@+id/checkBox1"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:textSize="18sp"
+    />
+
+    <CheckBox
+        android:text="item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/checkBox2"
+        android:textSize="18sp"
+        android:layout_below="@+id/checkBox1"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignEnd="@+id/checkBox1"
+    />
+
+    <CheckBox
+        android:text="item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/checkBox3"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignEnd="@+id/checkBox2"
+        android:textSize="18sp"
+        />
+
+    <CheckBox
+        android:text="item4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/checkBox4"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignEnd="@+id/checkBox3"
+        android:textSize="18sp"
+        />
+
+    <CheckBox
+        android:text="item5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/checkBox5"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignEnd="@+id/checkBox4"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:text="ORDER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderButton"
+        android:paddingTop="10dp"
+        android:onClick="sendOrder" />
+
+
+</LinearLayout>

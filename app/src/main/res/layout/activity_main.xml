@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sandy.equeue.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailText"
+        android:layout_marginTop="113dp"
+        android:hint="Email"
+        android:lineSpacingExtra="8sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passText"
+        android:layout_below="@+id/emailText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:lineSpacingExtra="8sp"
+        android:hint="Password" />
+
+    <Button
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passText"
+        android:layout_marginTop="45dp"
+        android:id="@+id/logInButton"
+        android:elevation="0dp"
+        android:layout_alignStart="@+id/passText"
+        android:layout_alignEnd="@+id/passText"
+        android:onClick="insert"
+        android:background="@color/color2" />
+
+    <TextView
+        android:text="E QUEUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/appTitle"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="CREATE NEW ACCOUNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/regButton"
+        android:layout_alignStart="@+id/logInButton"
+        android:layout_alignEnd="@+id/logInButton"
+        android:background="@color/color2"
+        android:onClick="register" />
+
+    <TextView
+        android:text="OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/regButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "434806972955",
+    "firebase_url": "https://equeue-563b8.firebaseio.com",
+    "project_id": "equeue-563b8",
+    "storage_bucket": "equeue-563b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434806972955:android:f1c20b117855a1aa",
+        "android_client_info": {
+          "package_name": "sandy.equeue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434806972955-5rgkgtepul6pdhqe3pbdglovqrbqn8el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sandy.equeue",
+            "certificate_hash": "D03CAB3CDA13EFF81B9FDF0128A4657EA550926F"
+          }
+        },
+        {
+          "client_id": "434806972955-haq06n7j21i1duk089aluk0qb4ussk42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQaU5bYreniQa92USQaGpmgm9MG3Xzrnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434806972955-haq06n7j21i1duk089aluk0qb4ussk42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

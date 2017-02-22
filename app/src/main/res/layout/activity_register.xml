@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sandy.equeue.RegisterActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/nameReg"
+        android:layout_marginTop="23dp"
+        android:hint="Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/emailReg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailReg"
+        android:hint="Email"
+        android:layout_below="@+id/nameReg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passReg"
+        android:hint="Password"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/emailReg"
+        android:layout_alignStart="@+id/emailReg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passRegCon"
+        android:hint="Confirm Password"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/passReg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phnoReg"
+        android:hint="Phone Number"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/passRegCon"
+        android:layout_alignStart="@+id/passRegCon" />
+
+    <Button
+        android:text="REGISTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/finalReg"
+        android:background="@color/color2"
+        android:onClick="onClick"
+        android:layout_below="@+id/phnoReg"
+        android:layout_alignStart="@+id/phnoReg"
+        android:layout_alignEnd="@+id/phnoReg" />
+
+</RelativeLayout>
